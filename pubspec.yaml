@@ -34,11 +34,17 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  assets:
+    - assets/guernica.jpg
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  fonts:
+    - family: Butler-Medium
+      fonts:
+        - asset: fonts/Butler-Medium.otf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
